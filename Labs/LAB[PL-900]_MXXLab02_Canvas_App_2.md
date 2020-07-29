@@ -4,7 +4,7 @@ lab:
     module: '모듈 XX: Power Apps 빌드'
 ---
 
-# PL-900: Microsoft-Power-Platform-기본 사항
+# PL-900: Microsoft Power Platform 기본 사항
 ## 모듈 X, 랩 2 – 캔버스 앱 - 파트 2
 
 시나리오
@@ -192,8 +192,8 @@ Bellows College는 캠퍼스 내에 여러 건물이 있는 교육 기관입니�
 
    ```
    Patch(
-       방문 수,
-       방문,
+       Visits,
+       Visit,
        {'Actual Start': Now()}
    );
    Refresh([@Visits]);
@@ -213,10 +213,10 @@ Bellows College는 캠퍼스 내에 여러 건물이 있는 교육 기관입니�
    ```
    Patch(
        [@Visits],
-       방문,
+       Visit,
        {
            'Actual End': Now(),
-           상태: 'Status (Visits)'.Inactive
+           Status: 'Status (Visits)'.Inactive
        }
    );
    Refresh([@Visits]);

@@ -4,7 +4,7 @@ lab:
     module: '모듈 XX: Power Apps 빌드'
 ---
 
-# PL-900: Microsoft-Power-Platform-기
+# PL-900: Microsoft Power Platform 기본 사항
 ## 모듈 X, 랩 3 – Power Automate
 
 시나리오
@@ -137,15 +137,15 @@ Bellows College는 캠퍼스 내에 여러 건물이 있는 교육 기관입니�
    * 다음 식을 **필터 쿼리**로 입력합니다.
 
      ```
-     statecode eq 0 and bc_actualstart ne null and bc_actualend eq null 및 Microsoft.Dynamics.CRM.OlderThanXMinutes(PropertyName='bc_scheduledend',PropertyValue=15)
+     statecode eq 0 and bc_actualstart ne null and bc_actualend eq null and Microsoft.Dynamics.CRM.OlderThanXMinutes(PropertyName='bc_scheduledend',PropertyValue=15)
      ```
 
    이걸 분석해 보면
 
    * `statecode eq 0`는 활성 방문을 필터링합니다 (상태가 활성과 동등)
-   * 'bc_actualstart ne null'은 실제 시작에 값이 있는 방문으로 검색을 제한합니다 (예: 체크 인이 있었다)
-   *  'bc_actualend eq null'은 체크 아웃이 없었던 방문으로 검색을 제한합니다 (실제 끝은 값이 없음) 
-   * 'Microsoft.Dynamics.CRM.OlderThanXMinutesMinutes(PropertyName='bc_scheduledend', PropertyValue=15)'는 방문이 15분 이상 전에 완료되는 경우 방문을 제한합니다.  
+   * `bc_actualstart ne null`은 실제 시작에 값이 있는 방문으로 검색을 제한합니다 (예: 체크 인이 있었다)
+   *  `bc_actualend eq null`은 체크 아웃이 없었던 방문으로 검색을 제한합니다 (실제 끝은 값이 없음) 
+   * `Microsoft.Dynamics.CRM.OlderThanXMinutes(PropertyName='bc_scheduledend', PropertyValue=15)`는 방문이 15분 이상 전에 완료되는 경우 방문을 제한합니다.  
 
 6.  **새 단계**를 클릭합니다. **적용**을 검색하고 **각 작업에 적용**을 선택합니다 
 

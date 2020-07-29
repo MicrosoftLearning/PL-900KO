@@ -4,7 +4,7 @@ lab:
     module: '모듈 XX: Power Apps 빌드'
 ---
 
-# PL-900: Microsoft-Power-Platform-기본 사항
+# PL-900: Microsoft Power Platform 기본 사항
 ## 트레이너 가이드
 
 # 환경
