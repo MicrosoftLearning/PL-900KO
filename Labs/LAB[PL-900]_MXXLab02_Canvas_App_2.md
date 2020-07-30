@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 02: 캔버스 앱, 파트 2'
     module: '모듈 XX: Power Apps 빌드'
