@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Power BI'
     module: '모듈 5: Power BI로 시작하기'
