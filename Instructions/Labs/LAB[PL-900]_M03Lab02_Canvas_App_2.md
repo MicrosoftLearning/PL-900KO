@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: 캔버스 앱, 파트 2'
     module: '모듈 3: Power Apps 시작'
