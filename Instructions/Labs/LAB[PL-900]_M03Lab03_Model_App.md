@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: 모델 기반 앱'
     module: '모듈 3: Power Apps 시작'
