@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 03: Power Automate'
     module: '모듈 XX: Power Apps 빌드'
