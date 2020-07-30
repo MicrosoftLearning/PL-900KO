@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 01: 데이터 모델링'
     module: '모듈 XX: Power Apps 빌드'
