@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩: Power Automate'
     module: '모듈 4: Power Automate 시작하기'
