@@ -54,7 +54,7 @@ Power BI 대시보드를 디자인하고 만들기 위해 아래 단계를 따�
 1.  Power BI Desktop이 설치되어 있지 않은 경우 [https://aka.ms/pbidesktopstore](https://aka.ms/pbidesktopstore)로 이동하여 Power BI 앱을 다운로드하고 설치합니다.
 
 > [!중요]
-> Microsoft Store를 사용하여 Power BI Desktop을 설치하는 데 문제가 발생하면 [https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller)에서 다운로드할 수 있는 독립 실행형 설치 프로그램을 사용해보세요.
+> Microsoft Store를 사용하여 Power BI Desktop을 설치하는 데 문제가 발생하면 [https://aka.ms/pbiSingleInstaller-kor](https://aka.ms/pbiSingleInstaller-kor)에서 다운로드할 수 있는 독립 실행형 설치 프로그램을 사용해보세요.
 
 2. **Power BI Desktop을 성공적으로 설치한 경우 [작업 \#2](#task-2-prepare-data)를 건너뛰세요**. 데스크톱 애플리케이션을 설치할 수 있는 권한이 없거나 Power BI Desktop을 실행 또는 구성하는 데 어려움이 있는 경우, 아래의 작업 단계를 완료한 다음 [작업 \#3](#task-3-create-chart-and-time-visualizations)을 계속하세요. 그러나 Power BI Desktop 대신 랩 전체에서 온라인 Power BI 서비스 [https://app.powerbi.com](https://app.powerbi.com)를 사용합니다. 
 
@@ -149,7 +149,7 @@ Power BI 대시보드를 디자인하고 만들기 위해 아래 단계를 따�
 
     * 원형 차트에서 다양한 건물 조각을 선택하고 시간 보고서의 변경 사항을 관찰합니다.
     
-    * 열 차트를 클릭합니다. 아래쪽 화살표를 눌러 **드릴다운** 모드를 켜고 열을 눌러 다음 단계(개월)로 드릴다운합니다. 이 작업을 수행하는 또 다른 방법은 **데이터/드릴 \** 을 클릭하는 것입니다.**|** 리본에서 **다음 레벨을 확장**합니다.
+    * 열 차트를 클릭합니다. 아래쪽 화살표를 눌러 **드릴다운** 모드를 켜고 열을 눌러 다음 단계(개월)로 드릴다운합니다. 이 작업을 수행하는 또 다른 방법은 **데이터/드릴 \|** 을 클릭하는 것입니다. 리본에서 **다음 레벨을 확장**합니다.
     
     * 시간 세로 막대형 차트에서 다양한 막대를 선택하고 원형 보고서의 변경 내용을 관찰합니다.
     
