@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 8: 기본 챗봇을 빌드하는 방법'
     module: '모듈 6: Power Virtual Agents 소개'
