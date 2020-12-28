@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '랩 6: 자동화된 솔루션을 빌드하는 방법'
     module: '모듈 4: Power Automate 시작하기'
@@ -93,16 +93,16 @@ Bellows College는 캠퍼스 내에 여러 건물이 있는 교육 기관입니�
         > 필드가 괄호로 명명되는 곳에 동적 콘텐츠를 배치해야 합니다. 먼저 모든 텍스트를 복사하여 붙여넣은 다음 올바른 장소에 동적 콘텐츠를 추가하는 것이 좋습니다.
    
         ```
-        친애하는 {First Name},
+        Dear {First Name},
 
-        현재 {Scheduled Start}에서 {Scheduled End}까지 벨로즈 캠퍼스를 방문할 예정입니다.
+        You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
 
-        보안 코드는 {Code}이며 공유하지 마세요. 방문하는 동안 이 코드를 생성해야 합니다.
+        Your security code is {Code}, please do not share it. You will be required to produce this code during your visit.
 
-        안녕히계세요.
+        Best regards,
 
-        캠퍼스 관리
-        벨로즈 대학
+        Campus Administration
+        Bellows College
         ```
    
 10.  맨 위에 있는 **제목 없음** 흐름 이름을 선택하고 `알림 방문` 으로 이름을 바꿉니다.
@@ -228,17 +228,17 @@ Bellows College는 캠퍼스 내에 여러 건물이 있는 교육 기관입니�
 13.  **제목** 필드에 다음을 입력합니다. **전체 이름**은 **방문자 가져오기** 단계의 동적 콘텐츠입니다.
 
    ```
-   {Full Name} 체류 연장
+   {Full Name} overstayed their welcome
    ```
    
 14.  **본문** 필드에 다음을 입력합니다. **이름**은 **건물 받기** 단계의 동적 콘텐츠입니다.
 
    ```
-   건물에 체류 연장 방문자가 있습니다 {Name}
+   There is an overstay in building {Name}
          
-   최고의
+   Best,
          
-   캠퍼스 보안
+   Campus Security
    ```
 
 17.  왼쪽 상단에서 **제목 없음**이라는 흐름을 선택하고 **보안 스윕**으로 이름을 바꿉니다.
