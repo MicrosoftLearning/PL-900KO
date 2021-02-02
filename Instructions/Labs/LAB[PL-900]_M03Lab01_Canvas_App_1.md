@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '랩 2: 캔버스 앱을 빌드하는 방법, 1부'
     module: '모듈 3: Power Apps 시작'
@@ -7,6 +7,13 @@ lab:
 # 모듈 3: Power Apps 시작
 
 ## 랩: 캔버스 앱을 빌드하는 방법, 1부
+
+### 중요 알림(2020년 11월 발효):
+Common Data Service가 Microsoft Dataverse로 이름이 바뀌었습니다. Microsoft Dataverse의 일부 용어도 업데이트되었습니다. 예를 들어 엔터티는 이제 테이블입니다. Dataverse 데이터베이스의 필드와 레코드는 이제 열과 행을 나타냅니다.
+
+애플리케이션의 사용자 환경이 업데이트되는 중인 경우 엔터티(현재 **테이블**), 필드(현재 **열**) 및 레코드(현재 **행**) 같은 Microsoft Dataverse 용어를 언급한 부분에서 최신 변경 내용이 반영되지 않을 수 있습니다. 랩을 진행하는 동안 이를 염두에 두시기 바랍니다. 최대한 빠른 시일 내에 콘텐츠를 완전히 최신 상태로 유지하도록 노력하겠습니다. 
+
+자세한 내용 및 영향을 받는 용어의 전체 목록을 확인하려면 [Microsoft Dataverse란?](https://docs.microsoft.com/ko-kr/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)을 참조하세요.
 
 # 시나리오
 

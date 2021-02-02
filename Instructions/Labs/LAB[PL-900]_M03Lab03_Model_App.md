@@ -7,6 +7,13 @@ lab:
 # 모듈 3: Power Apps 시작
 ## 랩 3: 모델 기반 앱 빌드 방법
 
+### 중요 알림(2020년 11월 발효):
+Common Data Service가 Microsoft Dataverse로 이름이 바뀌었습니다. Microsoft Dataverse의 일부 용어도 업데이트되었습니다. 예를 들어 엔터티는 이제 테이블입니다. Dataverse 데이터베이스의 필드와 레코드는 이제 열과 행을 나타냅니다.
+
+애플리케이션의 사용자 환경이 업데이트되는 중인 경우 엔터티(현재 **테이블**), 필드(현재 **열**) 및 레코드(현재 **행**) 같은 Microsoft Dataverse 용어를 언급한 부분에서 최신 변경 내용이 반영되지 않을 수 있습니다. 랩을 진행하는 동안 이를 염두에 두시기 바랍니다. 최대한 빠른 시일 내에 콘텐츠를 완전히 최신 상태로 유지하도록 노력하겠습니다. 
+
+자세한 내용 및 영향을 받는 용어의 전체 목록을 확인하려면 [Microsoft Dataverse란?](https://docs.microsoft.com/ko-kr/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)을 참조하세요.
+
 # 시나리오
 
 Bellows College는 캠퍼스 내에 여러 건물이 있는 교육 기관입니다. 캠퍼스 방문자는 현재 종이 저널에 기록되어 있습니다. 이 정보는 일관되게 수집되지 않으며, 전체 캠퍼스 방문 데이터를 수집하고 분석할 방법이 없습니다. 
