@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 5: Power Apps 포털을 빌드하는 방법'
     module: '모듈 3: Power Apps 시작'
