@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 1: 데이터 모델링'
     module: '모듈 2: Common Data Service 소개'
