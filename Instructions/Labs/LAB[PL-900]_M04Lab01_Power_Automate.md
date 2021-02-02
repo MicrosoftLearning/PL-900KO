@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 6: 자동화된 솔루션을 빌드하는 방법'
     module: '모듈 4: Power Automate 시작하기'
