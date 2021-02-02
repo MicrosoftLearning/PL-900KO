@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '랩 3: 캔버스 앱 빌드 방법, 2부'
     module: '모듈 3: Power Apps 시작'
